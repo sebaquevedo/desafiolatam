@@ -21,3 +21,74 @@ cd..
 Entrar a la carpeta de escritorio
 
  cd Escritorio
+
+ EJERCICIO EN CLASES
+5.
+Crear una carpeta clase1 dentro del escritorio
+
+cd
+cd Escritorio/
+mkdir clase1/
+
+6.
+Entrar a la carpeta
+
+cd clase1/
+
+7.
+Volver atrás
+
+cd ..
+
+8.
+Crear una carpeta clase2
+
+mkdir clase2/
+
+9.
+Mover la carpeta de la clase 2 dentro de la clase1
+
+mv clase2 clase1
+
+10.
+Renombrar la carpeta de la clase 2 a estamos_terminando
+
+mv clase2 estamos_terminando
+
+11.
+Borrar la carpeta de la 
+estamos_terminando
+
+rm -r estamos_terminando/
+
+12.
+Crear una carpeta llamada recursivo
+
+mkdir recursivo/
+
+13.
+Crear dentro de la carpeta el archivo mi_documento
+
+cd recursivo/
+touch mi_documento
+
+14.
+Borrar la carpeta recursivo
+
+cd.. 
+rm recursivo/
+
+15.
+¿Qué error se obtiene?
+
+rm: no se puede borrar 'recursivo/': Es un directorio
+
+
+16.
+¿Cómo se puede borrar la carpeta sin tener que borrar primero el 
+archivo que hay dentro?
+
+rm -r recursivo/
+
+
+hola asdasd asjdajsd
