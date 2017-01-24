@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="fonts.css" rel="stylesheet">
+	<title>Ejercicio Clase 9 semaforo</title>
+	<style>
+		 body {
+		 background: green;
+		 font-family: Oswald,sans-serif;
+		  
+		 }
+		 p::after{
+		 	content:"semaforo verde";
+		 }
+
+		@media screen and (min-width: 700px) and (max-width: 1199px) {
+			 body {
+			 background: yellow;
+			 font-family: 'Lato', sans-serif;
+				
+			 }
+			  p::after{
+				 	content: "semaforo amarillo";
+				 }
+		 }
+		 @media screen and (min-width: 1200px) {
+			 body {
+			 background: red;
+			 font-family: 'Oswald', sans-serif;
+			 
+			 }
+		 	 p::after{
+			 	content: "semaforo rojo";
+			 }
+		 }
+
+	</style>
+</head>
+<body>
+<p></p>
+
+	
+</body>
+</html>
