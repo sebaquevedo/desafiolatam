@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ejercicio imagenes responsive</title>
+	<style>
+		body{
+			margin: 0;
+		}
+		.img-container{
+			margin:  0 auto;
+			width: 407px;
+			position: relative;
+			overflow: hidden;
+		}
+		.img-container:hover .container{
+			top:  0px;
+		}
+		.img-container .container{
+			transition: all 1s ease-in-out;
+			background-color: rgba(0,0,0,.6);
+			color: white;
+			font-size: 15px;
+			margin: 0;
+			position: absolute;
+			top: calc(100% - 3rem - 1em);
+			width: 100%;
+			text-align: center;
+			height: 100%;
+			
+		}
+		.img-container h4{
+			padding:  0 0 1.5rem;
+		}
+		.img-container:hover h4{
+			top: 0px;
+		}
+		
+	</style>
+</head>
+<body>
+<div class="img-container">
+	<img src="./assets/img/hamburguesa.jpg" alt="">
+	<div class="container">
+		<h4>surrender to the hambelguel</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni optio qui molestiae autem eum fuga veniam consectetur. Libero iste cumque, ad fugiat dicta ratione, commodi, sequi ullam nostrum enim praesentium.</p> 
+	</div>
+</div>
+
+	
+</body>
+</html>
