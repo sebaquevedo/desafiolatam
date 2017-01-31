@@ -1,0 +1,2 @@
+cuando una funcion devuelve true o false lleva signo de pregunta = ? 
+ejemplo = (1..n) #suma+= i if i.even?

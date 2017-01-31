@@ -1,0 +1,47 @@
+start 
+	input numero1, numero2,numero3
+	if numero1 > numero2 and numero1 > numero3 
+		print numero1
+	else if numero2 > numero1 and numero2 > numero3 
+			print numero2
+		else
+			print numero3
+end
+
+start
+	input seleccion
+	random (piedra,papel,tijera)
+	if seleccion == random 
+		print empate
+	else if seleccion == piedra and random == tijera
+		print ganaste
+	else if seleccion == piedra and random == papel
+		print perdiste
+	else if seleccion == papel and random == piedra
+		print ganaste
+	else if seleccion == papel and random == tijera
+		print perdiste
+	else if seleccion == tijera and random == papel
+	 	print ganaste
+	else if seleccion == tijera and random == piedra
+		print perdiste 
+end
+
+start
+
+start
+	input num
+	contprimo = 0
+	for i -> num-1 ; i++
+		primo = true
+		for j = 2 -> i
+			if i % j = 0 
+				primo = false
+			endif
+		next
+		if primo = true
+			contprimo++
+		endif
+	next
+end
+	
