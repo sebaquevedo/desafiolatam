@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+	<title>Prueba HTML y CSS Desafio Latam</title>
+	<style>
+		body{
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		}
+
+		.fondo{
+			background: url(img/gordo.jpg) no-repeat center center fixed;
+			text-align: center;
+			background-size: cover;
+
+		}
+		
+		.fondo h1{
+		    text-shadow: 10px 10px 10px 10px #222;
+		    color: white;
+		  	margin: 0 auto;
+		  	text-shadow: 0px 15px 10px black;
+			font-size: 45px;
+			padding: 18%;
+		}
+	 	  section{
+			background-color: #3366ff;
+			border: 1px solid black;
+			border-radius: 5px;
+			box-sizing: border-box;
+			color: white;
+			float: left;
+			/* height: 200px; */
+			width: 21%;
+		 margin: 5%; 
+		} 
+		.img-container{
+			margin:  0 auto;
+			width: 407px;
+			position: relative;
+			overflow: hidden;
+		}
+		.img-container:hover .container{
+			top:  0px;
+		}
+		.img-container .container{
+			transition: all 1s ease-in-out;
+			background-color: rgba(0,0,0,.6);
+			color: white;
+			font-size: 15px;
+			margin: 0;
+			position: absolute;
+			top: calc(100% - 3rem - 1em);
+			width: 100%;
+			text-align: center;
+			height: 100%;
+			
+		}
+		.img-container h4{
+			padding:  0 0 1.5rem;
+		}
+		.img-container h2{
+			position: absolute;
+			    top: 80px;
+    			right: 0;
+		}
+		  .absolute {
+		 	position: absolute;
+			right: 5%;
+			border: 5px solid white;
+			color: white;
+			background-color: black;
+		}
+		.static {
+ 			 position: static;
+		}
+		div.static {
+    	position: static;
+    	border: 10px solid #73AD21;
+}
+
+	</style>
+</head>
+<body>
+	
+
+	<div class="fondo">
+		<h1>MIRA ESE BAJON PAPA!!</h1>
+		<button class="default">Reserva tu cupo</button>
+	</div>
+	
+	<div class="container">
+	<p class="absolute">soy absoluto respecto al container que es relativo al body</p>
+		<div class="static">
+		<h1>lorem</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora aut ea blanditiis ipsum sed explicabo doloremque neque temporibus labore soluta veritatis vero numquam minima, totam necessitatibus cumque quo unde ipsam.</p>
+	</div>
+		
+		<div class="row">
+			<article class="col-sm-4">
+				<img src="img/papas.jpg" class="img-responsive" alt="">
+				<h3>Pasa fritas Deliciosas</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et cupiditate consectetur, autem doloremque perspiciatis ducimus necessitatibus reiciendis totam quas in explicabo voluptatibus sint inventore nostrum, perferendis maiores facilis consequatur.</p>
+				<button class="btn-success">Comprar</button>
+				<i class="fa fa-address-book" aria-hidden="true"></i>
+			</article>
+			<article class="col-sm-4">
+				<img src="img/hamburguesa.jpg" class="img-responsive" alt="">
+				<h3>Un manjarsh</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et cupiditate consectetur, autem doloremque perspiciatis ducimus necessitatibus reiciendis totam quas in explicabo voluptatibus sint inventore nostrum, perferendis maiores facilis consequatur.</p>
+				<button class="btn-default">Comprar</button>
+			</article>
+			<article class="col-sm-4">
+				<img src="img/helado.jpg" class="img-responsive" alt="">
+				<h3>Postrecito</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et cupiditate consectetur, autem doloremque perspiciatis ducimus necessitatibus reiciendis totam quas in explicabo voluptatibus sint inventore nostrum, perferendis maiores facilis consequatur.</p>
+				<button class="btn-default">Comprar</button>
+			</article>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<section class="img-container img-responsive">
+						<img src="img/hamburguesa.jpg" alt="">
+						<div class="container">
+							<h4>surrender to the hambelguel</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni optio qui molestiae autem eum fuga veniam consectetur. Libero iste cumque, ad fugiat dicta ratione, commodi, sequi ullam nostrum enim praesentium.</p> 
+						</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+
+</body>
+</html>
