@@ -3,7 +3,7 @@ def pokemon_show(numero, nombre, tipo)
 end
 
 def pokemon_count(numero, nombre, tipo)
-	return true if tipo == "Grass" 
+	return true if tipo == "Fire" 
 end
 
 file = File.open "pokemons.txt"

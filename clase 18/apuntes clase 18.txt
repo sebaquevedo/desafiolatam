@@ -1,0 +1,18 @@
+
+Clase Tarde
+
+Asset-pipeline
+
+Porque es importante?
+
+ayuda a optimizar el proceso de manejo, transformacion y carga de assets.
+
+Preprocesado
+
+evalua si contiene ruby
+
+convierte archivos SASS o LESS a CSS
+
+convierte coffescript en JavaScript
+
+convierte SLIM o HAML en HTML

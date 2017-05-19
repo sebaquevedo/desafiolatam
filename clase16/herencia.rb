@@ -12,5 +12,4 @@ end
 class Perro < Mamifero
 	p = Perro.new
 	p.caminar
-
 end

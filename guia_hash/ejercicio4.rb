@@ -7,11 +7,19 @@ personas = ["Carolina", "Alejandro", "Maria Jesús", "Valentín"]
 edad = [32, 28, 41, 19]
 h = {}
 
-# personas.each_with_index do |value,index|
-# 	h.store(personas[index], edad[index])
-# end
+personas.each_with_index do |value,index|
+	h.store(personas[index], edad[index])
+end
 
-personas.length.times{|index| h[:"#{personas[index]}"]= edad[index]} 
+# personas.length.times{|index| h[:"#{personas[index]}"] = edad[index]} 
 
 
 print h
+
+def recibe_hash(hash)
+	hash.each do |i|
+		puts i 
+	end
+end
+
+recibe_hash(h)
