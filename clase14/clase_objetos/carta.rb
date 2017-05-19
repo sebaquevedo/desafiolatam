@@ -32,3 +32,4 @@ class Card
         data
     end
 end
+
